@@ -83,17 +83,23 @@ so that I can understand the search pattern the regex defines
 * Grouping expressions allows us to keep things more organized and easier to exact the characters of a given  
     group. This is used with parentheses "()".
 
-* (https?:\/\/) This group is basically saying it allows the URL code to being with "http://", "https://" or  
+- (https?:\/\/) This group is basically saying it allows the URL code to being with "http://", "https://" or  
    none of them.
-* ([\da-z\.-]+)     This group which is the domain name. It matches 1 or more numbers, letters, dots or hypens 
+- ([\da-z\.-]+)     This group which is the domain name. It matches 1 or more numbers, letters, dots or hypens 
    Ending it with a "+" linking it to the following line.
-*  ([a-z\.]{2,6})    Withe the + connecting this group together, this matches 2-6 copies of the sequences "[a-z\"
-* ([\/\w \.-]*)     This group is is being matched as many times as they want because of the "*" at the end. 
+- ([a-z\.]{2,6})    Withe the + connecting this group together, this matches 2-6 copies of the sequences "[a-z\"
+- ([\/\w \.-]*)     This group is is being matched as many times as they want because of the "*" at the end. 
 
 
   
 ## [Bracket Expressions](#table-of-contents)
   
+* Bracket expressions are expressions between "[]" brackets. In the example above, we have the following 
+  Bracket Expressions.
+
+  - [\da-z\.-]
+    [a-z\.]
+    [\/\w \.-]
   
 ## [Greedy and Lazy Match](#table-of-contents)
   
