@@ -245,8 +245,8 @@ so that I can understand the search pattern the regex defines
   
     Feel free to contact me if there are any issues or ideas to implement.
     
-  ## [Questions](#table-of-contents)
-  Contact Information Below:
+## [Questions](#table-of-contents)
+- Contact Information Below:
   [GitHub](https://github.com/arbinazari)
 
   [Email: arbinazari@hotmail.com](mailto:arbinazari@hotmail.com)
