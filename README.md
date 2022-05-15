@@ -84,7 +84,7 @@ so that I can understand the search pattern the regex defines
 
 - ] Ends bracket list.
 
--  + Because its outside the brackets the Greedy quantifier is denoting that the 
+- (+) Because its outside the brackets the Greedy quantifier is denoting that the 
     previous bracket list characters, may occur one or more times.
 
 - ) Ends captured group.
@@ -113,7 +113,7 @@ so that I can understand the search pattern the regex defines
 
 - . Escape sequence denoting the character.
 
--  - Indicates - character.
+- (-) Indicates - character.
 
 -  ] Ends bracket list.
 
