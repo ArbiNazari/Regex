@@ -54,7 +54,7 @@ so that I can understand the search pattern the regex defines
 
   # Explanation: 
 
-    -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( 
+   - -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( 
       Groups together multiple "tokens" to create a capture group. This can be used to retrieve 
       a substring or backreference. -https This indicates a sub-expression string that should
       be matched. "s"
