@@ -41,22 +41,56 @@ so that I can understand the search pattern the regex defines
     link to the author’s GitHub profile
 
   
-  ## [Anchors](#table-of-contents)
-  ## [Quantifiers](#table-of-contents)
-  ## [OR Operator](#table-of-contents)
-  ## [Character Classes](#table-of-contents)
-  ## [Flags](#table-of-contents)
-  ## [Grouping and Capturing](#table-of-contents)
-  ## [Bracket Expressions](#table-of-contents)
-  ## [Greedy and Lazy Match](#table-of-contents)
-  ## [Boundaries](#table-of-contents)
-  ## [Look-ahead and Look-behind](#table-of-contents)
-  ## [Bracket Expressions](#table-of-contents)
+## [Anchors](#table-of-contents)
+ -  The Anchors are always at the begining and end of the string. For the example above, ^ is the symbol for the 
+    begining and $ is for the end.
 
+    ^               Matches any string that starts with
+    $               Matches a string that ends with
+
+
+## [Quantifiers](#table-of-contents)
+    
+   - Quantifiers communicate to the regex engine that it MUST match the Quanity of the character or expression  
+    to its LEFT. There are two types of Quantifiers; Greedy and Lazy, each type has the same description.
+
+    * and *? Matches Zero or more times.
+    + and +? Matches One or more times.
+    ? and ?? Matches Zero or One times.
+    {n} and {n}? Matches exactly n times.
+    {n,} and {n,}? Matches atleast n times.
+    {n,m} and {n,m}? Matches from n to m times.
+
+  
+## [OR Operator](#table-of-contents)
+  
+  
+## [Character Classes](#table-of-contents)
+  
+  
+## [Flags](#table-of-contents)
+  
+  
+## [Grouping and Capturing](#table-of-contents)
+  
+  
+## [Bracket Expressions](#table-of-contents)
+  
+  
+## [Greedy and Lazy Match](#table-of-contents)
+  
+  
+## [Boundaries](#table-of-contents)
+  
+  
+## [Look-ahead and Look-behind](#table-of-contents)
+  
+  
+## [Bracket Expressions](#table-of-contents)
 
 
     
-  ## [Contributing](#table-of-contents)
+## [Contributing](#table-of-contents)
   
     Feel free to contact me if there are any issues or ideas to implement.
     
