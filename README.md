@@ -43,16 +43,16 @@ so that I can understand the search pattern the regex defines
 
 ## [Explanation and Examples](#table-of-contents)
 
-  * Regex Tutorial
+  # Regex Tutorial
 
    - A regular expression (Regex/Regexp), is a special text string for describing a search pattern. When
      included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string.
 
-  * Character Examples:
+  # Character Examples:
 
-     /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ 
+    - /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ 
 
-  * Explanation: 
+  # Explanation: 
 
     -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( Groups together 
       multiple "tokens" to create a capture group. This can be used to retrieve a substring or backreference.
