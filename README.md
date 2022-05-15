@@ -45,7 +45,7 @@ so that I can understand the search pattern the regex defines
  -  The Anchors are always at the begining and end of the string. For the example above, ^ is the symbol for the 
     begining and $ is for the end.
 
-    ^               Matches any string that starts with
+   * ^               Matches any string that starts with
     $               Matches a string that ends with
 
 
