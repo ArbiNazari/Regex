@@ -46,7 +46,7 @@ so that I can understand the search pattern the regex defines
     begining and $ is for the end.
 
    * ^               Matches any string that starts with
-    $               Matches a string that ends with
+   * $               Matches a string that ends with
 
 
 ## [Quantifiers](#table-of-contents)
