@@ -10,7 +10,7 @@
   * [Character Classes](#classes)
   * [Flags](#flags)   
   * [Grouping and Capturing](#grouping)
-  * [Bracket Expressions](#bracket)   
+  * [Bracket Expressions](#Bracket Expressions)   
   * [Greedy and Lazy Match](#greedy)
   * [Boundaries](#boundaries)
   * [Back-references](#back)   
@@ -170,6 +170,11 @@ so that I can understand the search pattern the regex defines
 
   
 ## [Flags](#table-of-contents)
+
+- A regex flag is not used in the matching email code that is being used for this tutorial. A regular expression
+  typically comes in the form:
+
+- /regex/
   
   
 ## [Grouping and Capturing](#table-of-contents)
@@ -205,13 +210,17 @@ so that I can understand the search pattern the regex defines
 
 ## [Boundaries](#table-of-contents)
   
+- If in a string, the coder is looking for for specific words. Boundaries are not used in the given 
+  matching an email code.
   
 ## [Look-ahead and Look-behind](#table-of-contents)
-  
+
+- If using a look-ahead or look-behind, then it has to match in a certain order. It is not being used in the 
+  given matching an email code.
   
 ## [Bracket Expressions](#table-of-contents)
 
-
+- Back-references are not included in the given code.
     
 ## [Contributing](#table-of-contents)
   
