@@ -57,9 +57,9 @@ so that I can understand the search pattern the regex defines
    - -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( 
       Groups together multiple "tokens" to create a capture group. This can be used to retrieve 
       a substring or backreference. -https This indicates a sub-expression string that should
-      be matched. "s"
+      be matched. "s" .
 
-    - - ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous 
+    -  ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous 
       character (s) either http or https ^^ not 100% on this, pretty sure it takes a way 
       the 's' from http.
 
