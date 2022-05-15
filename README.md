@@ -228,6 +228,10 @@ so that I can understand the search pattern the regex defines
   
 - If in a string, the coder is looking for for specific words. Boundaries are not used in the given 
   matching an email code.
+
+## [Back-references](#table-of-contents)
+  
+- Back-references are not included in the given code..
   
 ## [Look-ahead and Look-behind](#table-of-contents)
 
