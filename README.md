@@ -67,12 +67,30 @@ so that I can understand the search pattern the regex defines
   
 ## [Character Classes](#table-of-contents)
   
+- Character Classes ensure that a given sequence of characters matches a Larger set of characters.
+
+- [a-z]          Matches lowercase alphabetic characters between a and z
+- \w             Matches a single word
+- \d             Matches a single character that is a digit 0-9
+- .              Matches any character
+
   
 ## [Flags](#table-of-contents)
   
   
 ## [Grouping and Capturing](#table-of-contents)
   
+* Grouping expressions allows us to keep things more organized and easier to exact the characters of a given  
+    group. This is used with parentheses "()".
+
+* (https?:\/\/) This group is basically saying it allows the URL code to being with "http://", "https://" or  
+   none of them.
+* ([\da-z\.-]+)     This group which is the domain name. It matches 1 or more numbers, letters, dots or hypens 
+   Ending it with a "+" linking it to the following line.
+*  ([a-z\.]{2,6})    Withe the + connecting this group together, this matches 2-6 copies of the sequences "[a-z\"
+* ([\/\w \.-]*)     This group is is being matched as many times as they want because of the "*" at the end. 
+
+
   
 ## [Bracket Expressions](#table-of-contents)
   
