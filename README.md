@@ -41,7 +41,7 @@ so that I can understand the search pattern the regex defines
   - WHEN I reach the end of the tutorial then I find a section about the author and a 
     link to the author’s GitHub profile
 
-## [Explanation and Examples](#table-of-contents)
+## [Explanation](#table-of-contents)
 
   # Regex Tutorial
 
