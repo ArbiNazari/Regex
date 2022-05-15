@@ -7,7 +7,7 @@
   * [Anchors](#anchors)   
   * [Quantifiers](#quantifiers)   
   * [OR Operator](#OR-Operator)  
-  * [Character Classes](#classes)
+  * [Character Classes](#Character-Classes)
   * [Flags](#flags)   
   * [Grouping and Capturing](#grouping)
   * [Bracket Expressions](#bracket-expressions)   
