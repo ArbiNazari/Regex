@@ -6,7 +6,7 @@
   * [Explanation and Examples](#explanation)
   * [Anchors](#anchors)   
   * [Quantifiers](#quantifiers)   
-  * [OR Operator](#OR)  
+  * [OR Operator](#OR-Operator)  
   * [Character Classes](#classes)
   * [Flags](#flags)   
   * [Grouping and Capturing](#grouping)
@@ -158,6 +158,22 @@ so that I can understand the search pattern the regex defines
   
 ## [OR Operator](#table-of-contents)
   
+* It is not present in the code for the given matching email code, but in order to talk about the 
+  OR Operator, we will look at the following code for matching a hex code.
+
+- /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+- This is a regex for matching a hex code that uses the OR Operator. What this will 
+  do is it will match where it starts with the # and that has to come first followed by 
+  one of the following:
+
+- [a-f0-9]{6} which will match a 6 character long string that contains a 
+   combination of a-f letters and 0-9 numbers.
+
+- | OR Operator
+
+- [a-f0-9]{3} it will match a 3 character long string that contains a combination of a-f 
+  letters and 0-9 numbers.
   
 ## [Character Classes](#table-of-contents)
   
