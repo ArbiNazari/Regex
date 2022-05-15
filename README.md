@@ -98,8 +98,8 @@ so that I can understand the search pattern the regex defines
   Bracket Expressions.
 
   - [\da-z\.-]
-    [a-z\.]
-    [\/\w \.-]
+  - [a-z\.]
+  - [\/\w \.-]
   
 ## [Greedy and Lazy Match](#table-of-contents)
   
