@@ -59,13 +59,13 @@ so that I can understand the search pattern the regex defines
       a substring or backreference. -https This indicates a sub-expression string that should
       be matched. "s"
 
-    - ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous 
+    -  ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous 
       character (s) either http or https ^^ not 100% on this, pretty sure it takes a way 
       the 's' from http.
 
-    - \/\/ This is an escaped character.
+    -  \/\/ This is an escaped character.
 
-    - ) This Ends the capture grouped.
+    -  ) This Ends the capture grouped.
 
     * ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You 
       can have it or not.
