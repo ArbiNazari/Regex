@@ -10,7 +10,7 @@
   * [Character Classes](#classes)
   * [Flags](#flags)   
   * [Grouping and Capturing](#grouping)
-  * [Bracket Expressions](#Bracket Expressions)   
+  * [Bracket Expressions](#bracket-expressions)   
   * [Greedy and Lazy Match](#greedy)
   * [Boundaries](#boundaries)
   * [Back-references](#back)   
