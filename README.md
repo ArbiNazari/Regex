@@ -3,6 +3,7 @@
 
   ## Table-of-Contents
   * [Description and Task](#description)
+  * [Explanation and Examples](#explain)
   * [Anchors](#anchors)   
   * [Quantifiers](#quantifiers)   
   * [OR Operator](#OR)  
@@ -40,7 +41,57 @@ so that I can understand the search pattern the regex defines
   - WHEN I reach the end of the tutorial then I find a section about the author and a 
     link to the author’s GitHub profile
 
-  
+## [Explanation and Examples](#table-of-contents)
+
+  * Regex Tutorial
+
+   - A regular expression (Regex/Regexp), is a special text string for describing a search pattern. When
+     included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string.
+
+  * Character Examples:
+
+     /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ 
+
+  * Explanation: 
+
+   - -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( Groups together multiple "tokens" to create a capture group. This can be used to retrieve a substring or backreference. -https This indicates a sub-expression string that should be matched. "s"
+
+    ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous character (s) either http or https ^^ not 100% on this, pretty sure it takes a way the 's' from http
+    \/\/ This is an escaped character
+    ) This Ends the capture grouped.
+    ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You can have it or not.
+    ( Begins captured group.
+    [ Begins bracket list.
+    /d Is a metacharacter indicating any one digit character (0-9)
+    a-z Indicates lower case letters between a-z.
+    \. Escape sequence denoting the character .
+    - Indicates - character
+    ] Ends bracket list.
+    + Because its outside the brackets the Greedy quantifier is denoting that the previous bracket list characters, may occur one or more times.
+    ) Ends captured group.
+    \. Escape sequence denoting the character .
+    ( Begins captured group.
+    [ Begins bracket list.
+    a-z. Indicates lower case letters between a-z.
+    ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters may occur from 2 to 6 times.
+    ) Ends captured group.
+    ( Begins captured group.
+    [ Begins bracket list.
+    / Escapes regex to match the character /
+    \w Is a character class indicating any dingle Word Characters. Those are any characters including a-z, A-Z, 0-9, and _.
+    . Escape sequence denoting the character .
+    - Indicates - character
+    ] Ends bracket list.
+    * The Greedy quantifier denoting that the previous bracket list characters may occur zero or more times
+    ) Ends captured group.
+    * Greedy quantifier indicating that the entire previous captured group may occur zero or more times.
+    / Escapes regex to denote a regular / character
+    ? Greedy quantifier indicating previous / character may have 0 or 1 occurrences.
+    $ Position acnhoring that ends the string.
+    / Ends Regex.
+
+
+
 ## [Anchors](#table-of-contents)
  -  The Anchors are always at the begining and end of the string. For the example above, ^ is the symbol for the 
     begining and $ is for the end.
@@ -102,12 +153,13 @@ so that I can understand the search pattern the regex defines
   - [\/\w \.-]
   
 ## [Greedy and Lazy Match](#table-of-contents)
+
   * Greedy and Lazy Quantifers allow you to find the Greedy and the Lazy match. "Greedy" being the longest
     "Lazy" being the shortest.
   
   - ([\da-z\.-]+) The "+" operator is greedy as it allows character matching from one to an infinite amount of 
     times.
-    
+
 ## [Boundaries](#table-of-contents)
   
   
