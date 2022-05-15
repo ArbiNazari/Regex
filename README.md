@@ -102,8 +102,12 @@ so that I can understand the search pattern the regex defines
   - [\/\w \.-]
   
 ## [Greedy and Lazy Match](#table-of-contents)
+  * Greedy and Lazy Quantifers allow you to find the Greedy and the Lazy match. "Greedy" being the longest
+    "Lazy" being the shortest.
   
-  
+  - ([\da-z\.-]+) The "+" operator is greedy as it allows character matching from one to an infinite amount of 
+    times.
+    
 ## [Boundaries](#table-of-contents)
   
   
