@@ -9,7 +9,7 @@
   * [OR Operator](#OR-Operator)  
   * [Character Classes](#Character-Classes)
   * [Flags](#flags)   
-  * [Grouping and Capturing](#grouping)
+  * [Grouping and Capturing](#Grouping-and-Capturing)
   * [Bracket Expressions](#bracket-expressions)   
   * [Greedy and Lazy Match](#Greedy-and-Lazy-Match)
   * [Boundaries](#boundaries)
