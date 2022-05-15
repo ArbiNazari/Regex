@@ -15,8 +15,8 @@
   * [Boundaries](#boundaries)
   * [Back-references](#Back-references)   
   * [Look-ahead and Look-behind](#Look-ahead-and-Look-behind)  
-  * [Contributing](#table-of-contents)
-  * [Questions](#table-of-contents)
+  * [Contributing](#Contributing)
+  * [Questions](#questions)
 
 
  ## [Description](#table-of-contents)
