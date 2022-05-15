@@ -54,12 +54,16 @@ so that I can understand the search pattern the regex defines
 
   * Explanation: 
 
-   - -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( Groups together multiple "tokens" to create a capture group. This can be used to retrieve a substring or backreference. -https This indicates a sub-expression string that should be matched. "s"
+    -/ Begins Regex -^ This is always at the begining of the string, to position the anchors. -( Groups together 
+      multiple "tokens" to create a capture group. This can be used to retrieve a substring or backreference.
+      -https This indicates a sub-expression string that should be matched. "s"
 
-    ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous character (s) either http or https ^^ not 100% on this, pretty sure it takes a way the 's' from http
-    \/\/ This is an escaped character
+    ? This is a Greedy quantifier, which is basically denoting 0 or 1 occurrence of previous 
+     character (s) either http or https ^^ not 100% on this, pretty sure it takes a way the 's' from http
+     \/\/ This is an escaped character
     ) This Ends the capture grouped.
-    ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You can have it or not.
+    ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You can have 
+     it or not.
     ( Begins captured group.
     [ Begins bracket list.
     /d Is a metacharacter indicating any one digit character (0-9)
@@ -67,18 +71,21 @@ so that I can understand the search pattern the regex defines
     \. Escape sequence denoting the character .
     - Indicates - character
     ] Ends bracket list.
-    + Because its outside the brackets the Greedy quantifier is denoting that the previous bracket list characters, may occur one or more times.
+    + Because its outside the brackets the Greedy quantifier is denoting that the previous bracket list
+     characters, may occur one or more times.
     ) Ends captured group.
     \. Escape sequence denoting the character .
     ( Begins captured group.
     [ Begins bracket list.
     a-z. Indicates lower case letters between a-z.
-    ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters may occur from 2 to 6 times.
+    ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters may occur 
+     from 2 to 6 times.
     ) Ends captured group.
     ( Begins captured group.
     [ Begins bracket list.
     / Escapes regex to match the character /
-    \w Is a character class indicating any dingle Word Characters. Those are any characters including a-z, A-Z, 0-9, and _.
+    \w Is a character class indicating any dingle Word Characters. Those are any characters including a-z, 
+     A-Z, 0-9, and _.
     . Escape sequence denoting the character .
     - Indicates - character
     ] Ends bracket list.
