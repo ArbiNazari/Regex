@@ -11,7 +11,7 @@
   * [Flags](#flags)   
   * [Grouping and Capturing](#grouping)
   * [Bracket Expressions](#bracket-expressions)   
-  * [Greedy and Lazy Match](#greedy)
+  * [Greedy and Lazy Match](#Greedy-and-Lazy-Match)
   * [Boundaries](#boundaries)
   * [Back-references](#back)   
   * [Look-ahead and Look-behind](#look)  
