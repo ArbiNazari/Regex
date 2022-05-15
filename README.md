@@ -65,73 +65,73 @@ so that I can understand the search pattern the regex defines
 
 -  \/\/ This is an escaped character.
 
-    -  ) This Ends the capture grouped.
+-  ) This Ends the capture grouped.
 
-    * ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You 
+- ? Greedy quaintifier indicating the entire previous section wrapped in () is optional. You 
       can have it or not.
 
-    * ( Begins captured group.
+- ( Begins captured group.
 
-    * [ Begins bracket list.
+- [ Begins bracket list.
 
-    * /d Is a metacharacter indicating any one digit character (0-9).
+-  /d Is a metacharacter indicating any one digit character (0-9).
 
-    * a-z Indicates lower case letters between a-z.
+-  a-z Indicates lower case letters between a-z.
 
-    * \. Escape sequence denoting the character.
+-  \. Escape sequence denoting the character.
 
-    * - Indicates - character.
+-  Indicates - character.
 
-    * ] Ends bracket list.
+- ] Ends bracket list.
 
-    * + Because its outside the brackets the Greedy quantifier is denoting that the 
+- + Because its outside the brackets the Greedy quantifier is denoting that the 
       previous bracket list characters, may occur one or more times.
 
-    * ) Ends captured group.
+- ) Ends captured group.
 
-    * \. Escape sequence denoting the character.
+- \. Escape sequence denoting the character.
 
-    * ( Begins captured group.
+- ( Begins captured group.
 
-    * [ Begins bracket list.
+- [ Begins bracket list.
 
-    * a-z. Indicates lower case letters between a-z.
+- a-z. Indicates lower case letters between a-z.
     
-    * ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters 
+- ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters 
       may occur from 2 to 6 times.
 
-    * ) Ends captured group.
+- ) Ends captured group.
 
-    * ( Begins captured group.
+- ( Begins captured group.
 
-    * [ Begins bracket list.
+- [ Begins bracket list.
 
-    * / Escapes regex to match the character /
+- / Escapes regex to match the character /
 
-    * \w Is a character class indicating any dingle Word Characters. Those are any characters 
-      including a-z, A-Z, 0-9, and _.
+- \w Is a character class indicating any dingle Word Characters. Those are any characters 
+  including a-z, A-Z, 0-9, and _.
 
-    * . Escape sequence denoting the character.
+- . Escape sequence denoting the character.
 
-    * - Indicates - character.
+-  - Indicates - character.
 
-    * ] Ends bracket list.
+-  ] Ends bracket list.
 
-    * The Greedy quantifier denoting that the previous bracket list characters may occur zero 
-      or more times.
+-  The Greedy quantifier denoting that the previous bracket list characters may occur zero 
+   or more times.
 
-    * ) Ends captured group.
+-  ) Ends captured group.
 
-    * Greedy quantifier indicating that the entire previous captured group may occur zero or 
+-  Greedy quantifier indicating that the entire previous captured group may occur zero or 
       more times.
 
-    * / Escapes regex to denote a regular / character.
+-  / Escapes regex to denote a regular / character.
 
-    * ? Greedy quantifier indicating previous / character may have 0 or 1 occurrences.
+-  ? Greedy quantifier indicating previous / character may have 0 or 1 occurrences.
 
-    * $ Position acnhoring that ends the string.
+-  $ Position acnhoring that ends the string.
     
-    * / Ends Regex.
+-  / Ends Regex.
 
 
 
