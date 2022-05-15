@@ -84,12 +84,12 @@ so that I can understand the search pattern the regex defines
 
 - ] Ends bracket list.
 
-- + Because its outside the brackets the Greedy quantifier is denoting that the 
-      previous bracket list characters, may occur one or more times.
+-  + Because its outside the brackets the Greedy quantifier is denoting that the 
+    previous bracket list characters, may occur one or more times.
 
 - ) Ends captured group.
 
-- \. Escape sequence denoting the character.
+- \.Escape sequence denoting the character.
 
 - ( Begins captured group.
 
@@ -98,7 +98,7 @@ so that I can understand the search pattern the regex defines
 - a-z. Indicates lower case letters between a-z.
     
 - ] Ends bracket list. {2,6} Occurence indicator denoting the previous bracket list characters 
-      may occur from 2 to 6 times.
+    may occur from 2 to 6 times.
 
 - ) Ends captured group.
 
