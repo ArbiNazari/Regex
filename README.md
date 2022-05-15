@@ -3,7 +3,7 @@
 
   ## Table-of-Contents
   * [Description and Task](#description)
-  * [Explanation and Examples](#explaination)
+  * [Explanation and Examples](#explanation)
   * [Anchors](#anchors)   
   * [Quantifiers](#quantifiers)   
   * [OR Operator](#OR)  
